@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+      integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+   
+      
+   
+    
+</head>
+<body>
+    <div class="all-content">
+
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="logo"><img src="https://img.freepik.com/premium-vector/vector-illustration-cup-coffee_472355-64.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Product">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Gallary">Gallary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Blogs">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                  </li>
+                  
+
+
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </div>
+     <section id="home">
+      
+       <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://png.pngtree.com/background/20210711/original/pngtree-coffee-fresh-brown-poster-banner-background-picture-image_1069397.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Start Your Oky With a<br>Fresh coffee</h3>
+              <p>“A cup of coffee shared with a friend is happiness tasted and time well spent.”</p>
+              <button id="btn">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/tasty-espresso-served-cup-with-coffee-beans-around-spoon-view-from-dark-background-banner_1220-5751.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Start Your Oky With a<br>Fresh coffee</h3>
+              <p>“A cup of coffee shared with a friend is happiness tasted and time well spent.”</p>
+              <button id="btn">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.canstarblue.com.au/wp-content/uploads/2014/04/coffee-types-article.jpg?width=768" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Start Your Oky With a<br>Fresh coffee</h3>
+              <p>“A cup of coffee shared with a friend is happiness tasted and time well spent.”</p>
+              <button id="btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     </section>
+
+     <section id="About">
+      <div class="container">
+        <div class="heading">About<span>Us</span></div>
+        <div class="row">
+          <div class="col-md-5"> 
+              <img class="a1"src="https://rare-gallery.com/uploads/posts/500235-coffee-hd-wallpapers.jpg" class="img-thumbnail" alt="...">
+          
+          </div>
+          
+          <div class="col-md-6">
+            <h3>what makes our coffee special?</h3>
+            <p>If you’re an avid coffee drinker, chances are that you’ve come across the term specialty coffee at least once in the hunt for that perfect cup of coffee. Passionate baristas, latte art, manual coffee brewing, and tiny espresso drinks make up just a portion of the specialty coffee movement; the foundations run much deeper. <br>
+
+            <br>The Specialty Coffee Association (SCA) defines specialty coffee as coffee that has been graded above 80. This means that the quality of the coffee is beyond the final product served on your cup. Specialty coffee is a novel approach to coffee that is driven by morally conscious ethics, an appreciation for quality and variety, and a thriving community that spans the globe. <br>
+              
+            <br>Let’s dwell deeper into what makes specialty coffee special and different from your run-of-the-mill freshly ground coffee.</p><br>
+
+            <button id="btn22">Learn More</button>
+
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="top-cards">
+        <div class="heading">Most<span>Popular</span></div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                 <img class="a2" src="https://static.toiimg.com/thumb/msid-89078867/89078867.jpg?width=500&resizemode=4" alt="">
+                 <h5 class="card-title">Flat White coffee</h5>
+                 <p class="card-text">Rs99</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+               </svg>
+                 <a href="#" class="btn btn-light">Add list</a>
+                </div>
+                <div class="col">
+                <img class="a2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZUoJEb_5Sw94g9ZmsqVhiCR-X8hxcJ0q6b_QRgEvTRZjbRcMds_sKFNLsZmcWItqqfo&usqp=CAU" alt="">
+                <h5 class="card-title">Macchiato coffee</h5>
+                <p class="card-text">Rs120</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+                <a href="#" class="btn btn-light">Add list</a>
+                </div>
+                <div class="col">
+                <img class="a2" src="https://www.kidney.org/sites/default/files/Coffee_LYK%20tw.jpg" alt="">
+                <h5 class="card-title">Americano coffee</h5>
+                <p class="card-text">Rs100</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+                <a href="#" class="btn btn-light">Add list</a>
+                </div>
+              </div>
+            </div>
+      </div>
+
+        </div>
+
+      </section>
+
+      <section id="menu">
+        <div class="container">
+          <div class="heading1">Menu</div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+             <img class="a3"src="https://c1.wallpaperflare.com/preview/661/512/921/coffee-beverage-cup-coffee-cup.jpg" class="card-img-top" alt="">
+            <h5 class="card-title"> CAFFÈ LATTE </h5>
+            <p class="card-text">Rs99</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+        </div>
+           
+            <div class="col">
+              <img class="a3" src="https://www.hindustantimes.com/ht-img/img/2023/04/01/1600x900/black_coffee_1680335233646_1680335246044_1680335246044.jpg" alt="">
+              <h5 class="card-title">DOUBLE ESPRESSO</h5>
+              <p class="card-text">Rs150</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+           
+
+            <div class="col">
+              <img class="a3" src="https://images.ricardocuisine.com/services/recipes/3339.jpg" class="card-img-top" alt="">
+              <h5 class="card-title">AFFOGATO</h5>
+              <p class="card-text">Rs110</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+
+            <div class="col">
+              <img class="a3"src="https://img-global.cpcdn.com/recipes/78099f45b9f3c278/400x400cq70/photo.jpg" class="card-img-top" alt="">
+            <h5 class="card-title">ICED LATTE</h5>
+            <p class="card-text">Rs185</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+            </div>
+              </div>
+          </div>
+        </div>
+
+       
+        <div class="c1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+             <img class="a3"src="https://how2doketo.com/wp-content/uploads/2021/01/Keto-Whipped-Cappuccino-1-683x1024.jpg" class="card-img-top" alt="">
+            <h5 class="card-title">CAFFÈ MOCHA</h5>
+            <p class="card-text">Rs130</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+        </div>
+           
+            <div class="col">
+              <img class="a3" src="https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/17000-cappuccino-chocolate-chip-cookies-600x600.jpg?ext=.jpg" alt="">
+              <h5 class="card-title">CAPPUCCINO COOKIES</h5>
+              <p class="card-text">Rs220</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+           
+
+            <div class="col">
+              <img class="a3" src="https://img.taste.com.au/RoDizQ1Q/w720-h480-cfill-q80/taste/2016/11/cappuccino-cupcakes-49587-1.jpeg" class="card-img-top" alt="">
+              <h5 class="card-title">COLD BREW CUPCAKES </h5>
+              <p class="card-text">Rs250</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+
+            <div class="col">
+              <img class="a3"src="https://previews.123rf.com/images/lidante/lidante1304/lidante130400043/19080502-cup-of-cappuccino-with-whipped-cream-and-chocolate.jpg" class="card-img-top" alt="">
+            <h5 class="card-title">ESPRESSO CON PANNA</h5>
+            <p class="card-text">Rs100</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+            </div>
+              </div>
+            </div>
+
+      </section>
+
+      <section id="product">
+        <div class="container">
+          <div class="heading">product</div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+             <img class="a3"src="https://rukminim1.flixcart.com/image/416/416/klmmrgw0/coffee/j/i/z/200-original-black-roast-200-g-instant-coffee-glass-bottle-original-imagypdgn7rfsxds.jpeg?q=70" class="card-img-top" alt="">
+            <h5 class="card-title"> Nescafe coffee</h5>
+            <p class="card-text">Rs120</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+        </div>
+           
+            <div class="col">
+              <img class="a3" src="https://hotdealszone.in/wp-content/uploads/2020/06/Continental-Xtra-Coffee.jpg" alt="">
+              <h5 class="card-title"> Continental coffee</h5>
+              <p class="card-text">Rs250</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+           
+
+            <div class="col">
+              <img class="a3" src="https://m.media-amazon.com/images/I/5189UOc4cEL._SL1200_.jpg" class="card-img-top" alt="">
+              <h5 class="card-title">Cold coffee</h5>
+              <p class="card-text">Rs130</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+              <a href="#" class="btn btn-light">Add list</a>
+              </div>
+
+            <div class="col">
+              <img class="a3"src="https://imgshopimages.lbb.in/catalog/product/c/l/classico_amzn.jpg" class="card-img-top" alt="">
+            <h5 class="card-title"> Coffeeza coffee</h5>
+            <p class="card-text">Rs100</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+            <a href="#" class="btn btn-light">Add list</a>
+            </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Gallary">
+        <div class="container">
+          <div class="heading"> Our<span>Gallary</span></div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+             <img class="a4" src="https://s.inyourpocket.com/img/text/Bulgaria/sofia/our-tips-for-third-wave-coffee-shops-in-sofia.jpg" alt="">
+            </div>
+            <div class="col">
+             <img class="a4" src="https://imageio.forbes.com/specials-images/imageserve/60f5b60d124afbc1596f1489/0x0.jpg?format=jpg&width=1200" alt="">
+            </div>
+            <div class="col">
+             <img class="a4" src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/markets/us-coffee-shop-market-grows-to-45.4bn-valuation-in-2018/8803729-1-eng-GB/US-coffee-shop-market-grows-to-45.4bn-valuation-in-2018.jpg" alt="">
+            </div>
+          </div>
+
+
+          <div class="c2">
+            <div class="row">
+              <div class="col">
+               <img class="a4"src="https://media.istockphoto.com/id/1286692956/photo/empty-cafe-interior-with-chairs-and-tables.jpg?s=612x612&w=0&k=20&c=8rBA3ZWw6Cc4usSNj4QOkXRMfclmOlOU_HpH9emZLRA=" alt="">
+              </div>
+              <div class="col">
+               <img class="a4" src="https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653__340.jpg" alt="">
+              </div>
+              <div class="col">
+               <img class="a4" src="https://blog.eureka.co.it/hs-fs/hubfs/Third-wave-coffee-shop-people.jpg?width=1024&name=Third-wave-coffee-shop-people.jpg" alt="">
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="blogs">
+        <div class="heading">Latest<span>Blogs</span></div>
+       
+        <div class="container text-center">
+          <div class="row">
+           
+            <div class="col">
+              <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <img class="a5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkwQVzIOpZ_Jjze2Bfl9wgUbt285FlPpmAA&usqp=CAU" class="card-img-top" alt="...">
+             <div class="card-body">
+              <h5 class="card-title">Find your perfect coffee match</h5>
+              <p class="card-text">Every coffee lover has a unique style, an ideal concoction to devour that heaven-in-a-cup that oozes bliss with each sip.,</p>
+              <a href="#" class="btn  btn-dark ">Read More</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <img class="a5" src="https://kmc.solutions/media/1keddgpo/cafe-theme-banner.jpg?width=804&height=503&mode=max" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Making everyday gifting seamless</h5>
+              <p class="card-text">An average day is much appreciated these days, any-day over those dreadful days. We all know the feeling.</p>
+              <a href="#" class="btn  btn-dark ">Read More</a>
+            </div>
+          </div>
+            </div>
+            <div class="col">
+              <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <img  class="a5"src="https://www.kaapisolutions.com/wp-content/uploads/2020/10/India-Coffee-Machine-Market.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coffee is healthy for everyone</h5>
+              <p class="card-text">Coffee is certainly packed with many impressive properties for our well being. Read along to get a taste of a few!.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+    </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+               <div class="heading">Contact<span>Us</span></div> 
+              
+              <div class="shadow-m p-3 mb-5 bg-body-tertiary rounded">
+                <form>
+                  
+                 <div>
+                  <label for="validationCustom01" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+                  
+                 <div>
+                  <label for="validationCustom01" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+
+                 <div>
+                  <label for="validationCustom01" class="form-label">Phone</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+
+                 <div class="mb-3 p-3 form-check">
+                 <button type="submit" class="btn btn-dark">Sent Message</button>
+                 <symbol id="info-fill" viewBox="0 0 16 16">
+                  <script>
+                    
+                    function validation(){
+                      var Name = document.getElementById('name').value;
+                      var Email = document.getElementById('email').value;
+                      var Phone = document.getElementById('phone').value;
+                       
+                      if((name == Name) && (email == Email) && (phone == Phone)){
+                        swal("Good job!", "You clicked the button!", "success");
+                      }
+                     else{
+                       sweetAlert("ooops...!","name or email was wrong!","error")
+                     }
+                   }
+                  </script>
+                 
+                  
+                </symbol>
+                 </form>
+
+                 <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="p-2">
+                        <div class="map-area">
+                          <iframe class="f"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60271.51340729266!2d73.08894962353274!3d19.24015714137685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be796f457b1b76f%3A0x35df463ca445bd26!2sKalyan%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1684848972588!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></https:>
+                        </div>
+                       </div> 
+                    </div>
+                    <div class="col">
+                      <h1>Info</h1>
+                      <p><i><svg  class="i1"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                      </i>ABC@gamil.com</p><br>
+                      <p><i><svg  class="i1"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                     </i>+91783564000</p> <br>
+                      <p><i><svg class="i1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                      </i>Govindanagar near pethe road Kalyan</p> <br>
+                    </div>
+                     <div class="w-50 p-3">
+                    </div> 
+                  </div> 
+                    </div>
+                  </div>
+           
+        
+             
+      </section>  
+
+     
+        <footer id="footer">
+        <div class="text-center"></div>
+        <div class="social-links text-center">
+          <img class="m1" src="https://img.freepik.com/premium-vector/vector-illustration-cup-coffee_472355-64.jpg" alt="">
+          <br><b>Coffee Shop</b><br><br>
+         
+          <a href="#"><i><svg class="i" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></i></a>
+          <a href="#"><i><svg class="i"  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></i></a>
+          <a href="#"><i><svg  class="i" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg></i></a>
+          <a href="#"><i><svg class="i" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg></i></a>
+          <a href="#"><i><svg class="i"  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+          </svg></i></a></div>
+          
+          
+             
+        </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        &copy;copyright<strong><span>Coffee Shop</span></strong>All Rights Reserved
+
+      </div>
+      </footer>
+</body>
+</html>

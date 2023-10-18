@@ -1,0 +1,264 @@
+*{
+  font-family: 'poppins',sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none;border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  
+}
+img{
+  width:80px;
+  height: 100px;
+}
+.all-content{
+  /* font: bolder; */
+  background-color: chocolate;
+  color: black;
+}
+.nav-item{
+  font-weight: bolder;
+  padding: 25px;
+}
+#navbar form button{
+  background-color: black;
+  color: white;
+}
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:0px;
+  padding-bottom:100px;
+  background-position: center;
+  background-size: cover; 
+  text-align: center; 
+  width: 100%;
+  margin-bottom: 100px;
+}
+img.d-block{
+  height:600px;
+}
+
+.carousel-caption h3{
+ color: white;
+ font-size: 40px;
+ position: relative;
+ bottom: 200px;
+
+}
+.carousel-caption  p{
+ color: white;
+ position: relative;
+ bottom: 200px;
+
+}
+.carousel-caption #btn{
+  width: 100px;
+  height:50px;
+  font-weight: bolder;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  bottom: 200px;
+}
+#btn:hover{
+  background-color: chocolate;
+  color: white;
+}
+
+#about{
+  width: 100px;
+  height: 100px;
+}
+#about.container{
+  padding-top: 70px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.heading span{
+  color: chocolate;
+}
+.card{
+  width:580px;
+  height:450px;
+  margin-top:10px;
+} 
+img.a1{
+  width:380px;
+  height:500px;
+}
+#btn22{
+  background-color: chocolate;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+@media screen and (max-width:902px){
+  #about p{
+    font-size: 8px;
+  }
+}
+@media screen and(max-width:760px){
+  #about p{
+    font-size: 15px;
+  }
+}
+#top-cards{
+  width: 100%;
+  /* height: 60px; */
+  background: white;
+  margin-top: 100px;
+}
+
+ img.a2{
+  width: 300px;
+  height: 300px;
+  /* transition: 10s;
+  cursor: pointer; */
+}
+#top-cards.container {
+  margin-top: 30px;
+ 
+}
+#top-cards:hover{
+  transform: translateY(-10px);
+ 
+}
+
+#menu{
+  margin-top:100px;
+  color: chocolate;
+}
+#menu a:hover{
+  background-color: chocolate;
+  color: white;
+}
+.heading1{
+  text-align: center;
+  margin-bottom: 50px;
+  color:black;
+  font-size: 50px;
+  font-weight: bolder;
+  
+}
+#top-cards a:hover{
+  background-color: chocolate;
+  color: white;
+}
+#top-cards{
+  margin-top:100px;
+  color: chocolate;
+}
+img.a3{
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+.card-title{
+  font-weight: bolder;
+}
+.c1{
+  margin-top: 70px;
+}
+#product{
+  margin-top: 100px;
+}
+#product a:hover{
+  background-color: chocolate;
+  color: white;
+}
+#Gallary{
+  margin-top:100px;
+}
+img.a4{
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.c2{
+  margin-top: 70px;
+}
+img.a4:hover{
+  transition-delay: 10s;
+}
+#contact{
+  margin-top: 70px;
+  width: 100%;
+  padding-top: 70px;
+  height: 100vh;
+
+}
+#contact.container{
+ width: 100%;
+ height: 80vh;
+ background: linear-gradient(90deg,rgb(235, 230, 230) 80%,chocolate);
+ border-radius: 10px;
+
+}
+
+.col-md-2{
+   position: relative;
+   left: 630px;
+   bottom: 30px;
+}
+.col-md-2 p{
+  padding:0px;
+}
+.i1{
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width:902px){
+  #col {
+    font-size: 8px;
+  }
+}
+@media screen and(max-width:760px){
+  #col {
+    font-size: 15px;
+  }
+}
+img.a5{
+  width: 350px;
+  height: 350px;
+}
+.card-body a.btn:hover{
+  background-color: chocolate;
+  color: rgb(248, 244, 244);
+}
+
+
+#blogs{
+  margin-top:100px;
+}
+.map-area .f{
+  width: 500px;
+  height: 300px;
+
+}
+#footer{
+  margin-top:500px;
+  padding-bottom: 100px;
+  background-color: chocolate
+}
+ img.m1{
+ margin-top:10px;
+ }
+.i{
+  color: black;
+  padding:2px;
+}
+b{
+  font-size:30px;
+}
